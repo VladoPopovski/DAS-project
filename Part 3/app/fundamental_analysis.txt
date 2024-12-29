@@ -1,0 +1,67 @@
+import requests
+import pandas as pd
+from bs4 import BeautifulSoup
+from textblob import TextBlob
+
+
+def scrape_news():
+    """
+    Скрејпа вести од SeiNet веб-сајтот и ги враќа како DataFrame.
+    """
+    url = "https://seinet.com.mk/"
+    response = requests.get(url)
+
+    if response.status_code != 200:
+        print(f"Грешка при преземање на податоците: {response.status_code}")
+        return pd.DataFrame(columns=["Title", "Date", "Content"])
+
+    soup = BeautifulSoup(response.text, 'html.parser')
+
+    # Пример: Измени според структурата на сајтот
+    news_items = soup.select("root > main > div.mt-3.container > div > div > div > div > table > tbody > tr")
+    news_data = []
+
+    for item in news_items:
+        title = item.find('a').text.strip() if item.find('a') else "Без наслов"
+        date = item.find('td', class_='date').text.strip() if item.find('td', class_='date') else "Без датум"
+        content = item.find('td', class_='content').text.strip() if item.find('td', class_='content') else "Без содржина"
+        news_data.append({"Title": title, "Date": date, "Content": content})
+
+    return pd.DataFrame(news_data)
+
+
+def get_sentiment(text):
+    """
+    Анализира сентимент користејќи TextBlob.
+    """
+    blob = TextBlob(text)
+    polarity = blob.sentiment.polarity
+    if polarity > 0:
+        return "Позитивно"
+    elif polarity < 0:
+        return "Негативно"
+    else:
+        return "Неутрално"
+
+
+def analyze_sentiment(news_df):
+    """
+    Анализира сентимент за секоја вест во DataFrame и додава нова колона 'Sentiment'.
+    """
+    if "Content" not in news_df.columns:
+        print("Грешка: 'Content' колоната недостасува.")
+        return news_df
+
+    news_df["Sentiment"] = news_df["Content"].apply(get_sentiment)
+    return news_df
+
+
+def save_to_csv(news_df, file_path="news_data.csv"):
+    """
+    Зачувува DataFrame во CSV.
+    """
+    try:
+        news_df.to_csv(file_path, index=False, encoding="utf-8")
+        print(f"Податоците се успешно зачувани во {file_path}")
+    except Exception as e:
+        print(f"Грешка при зачувување на податоците: {e}")
