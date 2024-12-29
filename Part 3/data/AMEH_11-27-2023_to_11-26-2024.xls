@@ -1,0 +1,124 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:x='urn:schemas-microsoft-com:office:excel' xmlns='http://www.w3.org/TR/REC-html40'><head><meta http-equiv="Content-type" content="text/html;charset=utf-8" /><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>My Worksheet</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table id='resultsTable' class='table table-bordered table-condensed table-striped table-scrollbar dataTable no-footer' style='width: 100%;' role='grid'><thead class='thead-default'>
+                                                <tr role='row' style='height: 0px;'><th class='sorting_disabled' rowspan='1' colspan='1' style='width: 80.9375px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;'><div class='dataTables_sizing' style='height:0;overflow:hidden;'>
+                                                        Date
+                                                    </div></th><th class='td-right sorting_disabled' style='max-width: 100px; width: 99.1px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;' rowspan='1' colspan='1'><div class='dataTables_sizing' style='height:0;overflow:hidden;'>
+                                                        Last trade price
+                                                    </div></th><th class='td-right sorting_disabled' rowspan='1' colspan='1' style='width: 70.9375px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;'><div class='dataTables_sizing' style='height:0;overflow:hidden;'>
+                                                        Max
+                                                    </div></th><th class='td-right sorting_disabled' rowspan='1' colspan='1' style='width: 70.9375px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;'><div class='dataTables_sizing' style='height:0;overflow:hidden;'>
+                                                        Min
+                                                    </div></th><th class='td-right sorting_disabled' rowspan='1' colspan='1' style='width: 70.9375px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;'><div class='dataTables_sizing' style='height:0;overflow:hidden;'>
+                                                        Avg. Price
+                                                    </div></th><th class='td-right sorting_disabled' rowspan='1' colspan='1' style='width: 44.0125px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;'><div class='dataTables_sizing' style='height:0;overflow:hidden;'>
+                                                        %chg.
+                                                    </div></th><th class='td-right sorting_disabled' rowspan='1' colspan='1' style='width: 53.975px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;'><div class='dataTables_sizing' style='height:0;overflow:hidden;'>
+                                                        Volume
+                                                    </div></th><th class='td-right sorting_disabled' rowspan='1' colspan='1' style='width: 179.462px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;'><div class='dataTables_sizing' style='height:0;overflow:hidden;'>
+                                                        Turnover in BEST in denars
+                                                    </div></th><th class='td-right sorting_disabled' rowspan='1' colspan='1' style='width: 161.7px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;'><div class='dataTables_sizing' style='height:0;overflow:hidden;'>
+                                                        Total turnover in denars
+                                                    </div></th></tr>
+                                            </thead>
+                                            
+                                            <tbody>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                            <tr role='row' class='odd'>
+                                                        <td>11/25/2024</td>
+                                                        <td class='td-right'>36,900.00</td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'>36,900.00</td>
+                                                        <td class='td-right'>0.00</td>
+                                                        <td class='td-right'>0</td>
+                                                        <td class='td-right'>0</td>
+                                                        <td class='td-right'>0</td>
+                                                    </tr><tr role='row' class='even'>
+                                                        <td>11/22/2024</td>
+                                                        <td class='td-right'>36,900.00</td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'>36,900.00</td>
+                                                        <td class='td-right'>0.00</td>
+                                                        <td class='td-right'>0</td>
+                                                        <td class='td-right'>0</td>
+                                                        <td class='td-right'>0</td>
+                                                    </tr><tr role='row' class='odd'>
+                                                        <td>11/21/2024</td>
+                                                        <td class='td-right'>36,900.00</td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'>36,900.00</td>
+                                                        <td class='td-right'>0.00</td>
+                                                        <td class='td-right'>0</td>
+                                                        <td class='td-right'>0</td>
+                                                        <td class='td-right'>0</td>
+                                                    </tr><tr role='row' class='even'>
+                                                        <td>11/20/2024</td>
+                                                        <td class='td-right'>36,900.00</td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'>36,900.00</td>
+                                                        <td class='td-right'>0.00</td>
+                                                        <td class='td-right'>0</td>
+                                                        <td class='td-right'>0</td>
+                                                        <td class='td-right'>0</td>
+                                                    </tr><tr role='row' class='odd'>
+                                                        <td>11/19/2024</td>
+                                                        <td class='td-right'>36,900.00</td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'>36,900.00</td>
+                                                        <td class='td-right'>0.00</td>
+                                                        <td class='td-right'>0</td>
+                                                        <td class='td-right'>0</td>
+                                                        <td class='td-right'>0</td>
+                                                    </tr><tr role='row' class='even'>
+                                                        <td>11/18/2024</td>
+                                                        <td class='td-right'>36,900.00</td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'>36,900.00</td>
+                                                        <td class='td-right'>0.00</td>
+                                                        <td class='td-right'>0</td>
+                                                        <td class='td-right'>0</td>
+                                                        <td class='td-right'>0</td>
+                                                    </tr><tr role='row' class='odd'>
+                                                        <td>11/15/2024</td>
+                                                        <td class='td-right'>36,900.00</td>
+                                                        <td class='td-right'>36,900.00</td>
+                                                        <td class='td-right'>36,900.00</td>
+                                                        <td class='td-right'>36,900.00</td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'>50</td>
+                                                        <td class='td-right'>1,845,000</td>
+                                                        <td class='td-right'>1,845,000</td>
+                                                    </tr><tr role='row' class='even'>
+                                                        <td>11/14/2024</td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'>0</td>
+                                                        <td class='td-right'>0</td>
+                                                        <td class='td-right'>0</td>
+                                                    </tr><tr role='row' class='odd'>
+                                                        <td>11/13/2024</td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'></td>
+                                                        <td class='td-right'>0</td>
+                                                        <td class='td-right'>0</td>
+                                                        <td class='td-right'>0</td>
+                                                    </tr></tbody>
+                                        </table></body></html>
