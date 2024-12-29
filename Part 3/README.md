@@ -7,4 +7,4 @@ This code is a Dash-based web application for visualizing and analyzing historic
 4. Sentiment analysis.
 5. Detaild data tables for deeper insights.
 
-Link to the video: //uploading//
+Link to the video: https://drive.google.com/file/d/1cAyWxBZbpe_iDkAaD4WmSsR2vtWct3Gf/view?usp=sharing
