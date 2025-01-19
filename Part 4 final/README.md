@@ -16,3 +16,8 @@ This project also includes Azure integration for deploying services to the cloud
 Deployment:
 Open to see main_service: https://main-service.gentledune-429612a1.westeurope.azurecontainerapps.io
 Open to see visualization_service: https://visualization-service.gentledune-429612a1.westeurope.azurecontainerapps.io
+
+
+### Video link demonstrating docker operation
+
+https://drive.google.com/file/d/1EK6f3k8sJ23TzzSlIKe35GzFmL5jWj1l/view?usp=sharing
